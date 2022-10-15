@@ -1,0 +1,72 @@
+.nav-item-sm:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.nav-item-sm.berichte span, .nav-item-sm.services span {
+    margin-top: 20px;
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.nav-item.scan span {
+    margin-top: 20px;
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.nav-item.scan {
+    background: #E65425;
+}
+
+.nav-item-sm.berichte {
+    background: #15499F;
+}
+
+.nav-item-sm.services {
+    background: #1998A7;
+}
+
+
+
+.number-card {
+    padding-left: 11px;
+    margin-bottom: 30px;
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #455B66;
+}
+
+.score {
+    padding-left: 11px;
+    margin-bottom: 19px;
+}
+
+.bank-balance {
+    display: flex;
+    align-items: flex-start;
+}
+
+.first-sum {
+    margin-right: 15px;
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 72px;
+    line-height: 100%;
+    color: #E65425;
+}
+
+.last-sum {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #617E8C;
+}
+

@@ -1,0 +1,133 @@
+.pay-header {
+    padding: 40px 33px 76px 33px;
+    background-color: #fff;
+    display: flex;
+    align-items: flex-start;
+}
+
+.pay-item {
+    padding-left: 33px;
+    padding-right: 33px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.pay-header-sm:not(:last-child) {
+    margin-bottom: 75px;
+}
+
+.pay-header-item {
+    width: 100%;
+}
+
+.light-title {
+    margin-bottom: 10px;
+    font-family: 'Roboto Reg', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #617E8C;
+}
+
+.light-title-sm {
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.pay-header-item h2 {
+    margin-bottom: 10px;
+    font-family: 'Roboto Reg', sans-serif;
+    font-size: 48px;
+    line-height: 56px;
+    color: #253238;
+}
+
+.sum {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 144px;
+    line-height: 100%;
+    color: #253238;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.pay-price {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 64px;
+    line-height: 100%;
+    color: #253238;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.sum strong {
+    vertical-align: top;
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 64px;
+    line-height: 100%;
+    color: #253238;
+}
+
+.pay-price strong {
+    vertical-align: top;
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 36px;
+    line-height: 100%;
+    color: #253238;
+}
+
+
+
+
+
+
+/* footer */
+
+.pay-footer {
+    margin-right: -4.5px;
+    margin-left: -4.5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pay-footer-col {
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+}
+
+.pay-footer-col.abrechen {
+    flex: 0 0 27%;
+    max-width: 27%;
+}
+
+.pay-footer-col.enter {
+    flex: 0 0 73%;
+    max-width: 73%;
+}
+
+.pay-footer-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 330px;
+}
+
+.pay-footer-item span {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 96px;
+    line-height: 112px;
+    text-transform: uppercase;
+    color: #B6E2ED;
+}
+
+.pay-footer-item.abrechen {
+    background: #D62D30;
+    flex-direction: column;
+}
+
+.pay-footer-item.enter {
+    background: #0D6064;
+}
